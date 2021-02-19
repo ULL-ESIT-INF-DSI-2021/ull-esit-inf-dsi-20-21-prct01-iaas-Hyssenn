@@ -18,7 +18,7 @@ Al finalizar dicha práctica tendremos:
 
 Para realizar la conexión a la maquina virtual de la plataforma he tenido que conectarme remótamente desde la vpn de la ULL siguiendo los pasos de este [enlace](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
 
-![hola](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/hola)
+![hola](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Asignacion%20maquina.PNG?raw=true)
 
 
 ### Markdown
