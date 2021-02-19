@@ -16,9 +16,10 @@ Al finalizar dicha práctica tendremos:
 
 ## Conexión a la máquina virtual y primera configuración
 
-You can use the [editor on GitHub](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Para realizar la conexión a la maquina virtual de la plataforma he tenido que conectarme remótamente desde la vpn de la ULL siguiendo los pasos de este [enlace](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+
 
 ### Markdown
 
