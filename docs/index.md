@@ -115,13 +115,6 @@ usuario@iaas-dsi58:~$ vi git-prompt.sh
 usuario@iaas-dsi58:~$ mv git-prompt.sh .git-prompt.sh
 usuario@iaas-dsi58:~$ vi .bashrc
 usuario@iaas-dsi58:~$ tail .bashrc
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
 source ~/.git-prompt.sh
 PS1='\[\033]0;\u@\h:\w\007\]\[\033[0;34m\][\[\033[0;31m\]\w\[\033[0;32m\]($(git branch 2>/dev/null | sed -n "s/\* \(.*\)/\1/p"))\[\033[0;34m\]]$'
 (solo copiar las ultimas dos lineas del tail)
@@ -164,10 +157,14 @@ Github es una herramienta poderosa y de colaboración que puede resultar útil e
 
 ### Bibliografía
 
-Introducción a Markdown                                 [enlace](https://guides.github.com/features/mastering-markdown/)
-GitHub Learning Lab                                     [enlace](https://lab.github.com/)
-Información sobre GitHub Pages                          [enlace](https://docs.github.com/en/github/working-with-github-pages)
-Documentación de configuración de la VPN de la ULL      [enlace](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
-Script git prompt                                       [enlace](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+Introducción a Markdown                                    [enlace](https://guides.github.com/features/mastering-markdown/)
+
+GitHub Learning Lab                                        [enlace](https://lab.github.com/)
+
+Información sobre GitHub Pages                             [enlace](https://docs.github.com/en/github/working-with-github-pages)
+
+Documentación de configuración de la VPN de la ULL         [enlace](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
+
+Script git prompt                                          [enlace](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
 
 
