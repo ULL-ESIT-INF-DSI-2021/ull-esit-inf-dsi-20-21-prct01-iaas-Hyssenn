@@ -1,6 +1,20 @@
-# Informe
-# Practica 1 
-## Introduccion
+# Práctica 1 - Configuración de Máquina virtual en el Iaas
+
+# Introducción
+
+Antes de comenzar con la realización de la práctica hemos tenido que realizar todas las tareas previas.
+
+En esta práctica se aprenderá a configurar una máquina virtual de la plataforma universitaria IAAS en sus aspectos básicos, de conexión remota e instalación de git y Node.js
+
+# Objetivos
+
+Al finalizar dicha práctica tendremos:
+
+- Una máquina virtual con un nombre predeterminado del pool con los aspectos básicos ya configurado.
+- Conexión rémota por ssh ya configurada.
+- Instalado Git y node.js en su última versión.
+
+## Conexión a la máquina virtual y primera configuración
 
 You can use the [editor on GitHub](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
