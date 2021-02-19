@@ -158,4 +158,16 @@ Para finalizar instalamos nvm y Node.js en su última versión
 
 ![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Install_node.png?raw=true)
 
+### Conclusiones
+
+Github es una herramienta poderosa y de colaboración que puede resultar útil en muchas ocasiones a grandes organizaciones, así mismo aún puede tener algo de dificultad al principio es algo que puede resultar muy beneficioso al final y hay que considerar aprenderlo y adaptarlo como una de las muchas opciones que puede tener un informático a su alcance.
+
+### Bibliografía
+
+Introducción a Markdown                                 [enlace](https://guides.github.com/features/mastering-markdown/)
+GitHub Learning Lab                                     [enlace](https://lab.github.com/)
+Información sobre GitHub Pages                          [enlace](https://docs.github.com/en/github/working-with-github-pages)
+Documentación de configuración de la VPN de la ULL      [enlace](https://www.ull.es/servicios/stic/2020/12/01/servicio-de-vpn-de-la-ull/)
+Script git prompt                                       [enlace](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh)
+
 
