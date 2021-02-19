@@ -23,7 +23,11 @@ Una vez en la vpn encendemos la máquina de la plataforma que nos asigna un núm
 ![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Asignacion%20maquina.PNG?raw=true)
 
 
-y procedemos a conectarnos remótamente por SSH.
+y procedemos a conectarnos remótamente por SSH con la línea: 
+
+```
+ssh usuario@10.6.130.6
+```
 
 Nos obligará a cambiar la contraseña la primera vez que nos conectemos y seguimos los pasos que se nos dice
 
@@ -33,7 +37,32 @@ Lo siguiente que realizamos son los cambios al nombre de host de la máquina vir
 
 ![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Cambio%20nombres.png?raw=true)
 
+y reiniciamos la máquina
 
+```
+usuario@ubuntu:~$ sudo apt update
+...
+usuario@ubuntu:~$ sudo apt upgrade
+...
+```
+
+### Configuración del SSH
+
+Para evitar recordar la ip y tener que usarla en cada conexión SSH incluimos la información de la maquina en etc/hosts.
+
+![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/FicherosHostLocal.png?raw=true)
+
+generamos el par de claves pública-privada.
+
+![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Generaci%C3%B3nClave.png?raw=true)
+
+y copiamos la clave pública de nuestra maquina local  a la virtual
+
+![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/Copia_inicio_ssh.png?raw=true)
+
+![foto](https://github.com/ULL-ESIT-INF-DSI-2021/ull-esit-inf-dsi-20-21-prct01-iaas-Hyssenn/blob/main/docs/imagenes/confirmacion_de_inicio.png?raw=true)
+
+y como se puede ver ya se puede hacer login sin necesidad de ninguna contraseña o ip simplemente desde el nombre
 
 ### Markdown
 
